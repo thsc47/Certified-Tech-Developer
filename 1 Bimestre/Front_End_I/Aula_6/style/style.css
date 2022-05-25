@@ -1,0 +1,13 @@
+.img-acabaxi {
+    width: 150px;
+    height: 150px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
