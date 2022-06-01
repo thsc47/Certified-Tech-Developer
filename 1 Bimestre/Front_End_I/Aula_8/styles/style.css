@@ -1,13 +1,3 @@
-/* 
-
-
-Caso não haja erros na vinculação da folha de estilos nem na definição das regras CSS, seu site deve estar se parecendo com o seguinte:
-Se não estiver obtendo resultados semelhantes, verifique sua tag <link> para vinculação com o nome correto da folha de estilos e lembre-se de praticar a inspeção de código para procurar por regras que não estejam sendo aplicadas!
-Nesse momento, já alcançamos o objetivo definido para a atividade, mas caso a sua imagem tenha ficado um pouco estranha, podemos ajustá-la de acordo com sua necessidade!
-Adicione a regra background-size: cover; em sua classe media-picture. Isso fará com que, independentemente do tamanho da sua imagem, ela se adeque à largura de 100% que definimos.
-Agora podemos posicioná-la na direção em que você achar melhor, lembrando que esse passo é opcional. Adicione a regra background-position: center; em sua classe media-picture. Isso fará com que a imagem se ajuste ao centro, mas podemos alinhar em outros eixos também.
-Você pode trocar o valor center por left, top, right e bottom. Cada um deles irá ajustar a imagem de uma maneira diferente, faça o teste e descubra qual posição fica melhor para sua imagem!  */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 :root {

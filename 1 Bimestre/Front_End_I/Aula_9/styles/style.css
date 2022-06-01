@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    --white: #ffffff;
+    --white-fade: #ffffff99;
+    --black-fade: #00000080;
+    --bg-color: #181818;
+    --pg-title-color: #EC364E;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 72px 0;
+}
+
+.page-title {
+    color: var(--pg-title-color);
+    padding-left: 64px;
+    margin-bottom: 6px;
+}
+
+.page-description {
+    padding-left: 64px;
+}
+
+.videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.video {
+    width: 30%;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.video:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.video-time {
+    color: var(--white);
+    background-color: var(--black-fade);
+    width: fit-content;
+    float: right;
+    padding: 8px 12px;
+    display: block;
+    transform: translateY(-35px);
+}
+
+.video-title {
+    margin: 8px 0 12px;
+}
+
+.video-description {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+.video-views {
+    color: var(--white-fade);
+    margin-top: 12px;
+    display: block;
+}
+
+.video-date {
+    text-align: right;
+    display: block;
+}
