@@ -4,6 +4,7 @@
     --white: #ffffff;
     --white-fade: #ffffff99;
     --black-fade: #00000080;
+    --white-fade-04: #ffffff66;
     --bg-color: #181818;
     --pg-title-color: #EC364E;
 }
@@ -22,6 +23,7 @@ body {
 
 .page-description {
     padding-left: 64px;
+    color: var(--white-fade);
 }
 
 .videos {
@@ -63,6 +65,7 @@ body {
 
 .video-title {
     margin: 8px 0 12px;
+    color: var(--white)
 }
 
 .video-description {
@@ -79,4 +82,6 @@ body {
 .video-date {
     text-align: right;
     display: block;
+    color: var(--white-fade-04); 
+    font-size: 12px;
 }
