@@ -27,3 +27,10 @@ header nav ul li a{
     color: #000;
     font-size: 24px;
 }
+
+.showcase{
+    background-image: url("https://1.bp.blogspot.com/-fw8knoq3Nlk/XZkdpLk5H2I/AAAAAAAAHSs/VA4C5P87RPox3nOsMN4nCSNFUgb0QlxMQCLcBGAsYHQ/s1600/blast_Yoshiban.png");
+    width: 100%;
+    height: 532px;
+    overflow: hidden;
+}
